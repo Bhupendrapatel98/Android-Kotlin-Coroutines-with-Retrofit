@@ -1,4 +1,4 @@
-package com.hackerkernel.kotlinquizapplication
+package com.hackerkernel.kotlinquizapplication.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.hackerkernel.kotlinquizapplication.R
 import com.hackerkernel.kotlinquizapplication.adapter.PostAdapter
 import com.hackerkernel.kotlinquizapplication.model.Post
 import com.hackerkernel.kotlinquizapplication.repository.PostRepository
